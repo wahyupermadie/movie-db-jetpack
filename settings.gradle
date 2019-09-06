@@ -1,2 +1,2 @@
-include ':app', ':navigation'
+include ':app', ':navigation', 'feature:tvshow', 'feature:movies'
 rootProject.name='movie-app-modular'
