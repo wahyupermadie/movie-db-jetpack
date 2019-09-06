@@ -9,6 +9,8 @@ android {
         targetSdkVersion Versions.targetSdk
         versionCode Releases.versionCode
         versionName Releases.versionName
+        buildConfigField "String", "BASE_URL", "\"https://api.themoviedb.org/3/\""
+        buildConfigField "String", "API_KEY", "\"01c5d0d1ff15325934327ab3965e26f6\""
     }
     buildTypes {
         release {
