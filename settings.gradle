@@ -1,2 +1,2 @@
-include ':app', ':navigation', 'feature:tvshow', 'feature:movies'
+include ':app', ':navigation', 'data:repository', 'data:remote', ':common', 'data:local', 'data:model', 'feature:tvshow', 'feature:movies'
 rootProject.name='movie-app-modular'
